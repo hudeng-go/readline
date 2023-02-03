@@ -32,6 +32,7 @@ extern "C" {
 #  include "keymaps.h"
 #  include "tilde.h"
 #else
+#  include <stdio.h>
 #  include <readline/rlstdc.h>
 #  include <readline/rltypedefs.h>
 #  include <readline/keymaps.h>
