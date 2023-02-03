@@ -2,7 +2,7 @@
 # -*- makefile -*-
 
 soversion = 8
-libversion = $(soversion).1
+libversion = $(soversion).2
 
 # architecture dependent variables
 DEB_HOST_ARCH		?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
