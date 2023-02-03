@@ -273,7 +273,7 @@ static void maybe_emphasize_input (int on)
   if (on == current_emphasize_input
       || (on && ! do_emphasize_input))
     return;
-  fprintf (rl_outstream, on ? start_input_mode : end_input_mode);
+  fprintf (rl_outstream, "%s", on ? start_input_mode : end_input_mode);
   fflush (rl_outstream);
   current_emphasize_input = on;
 }
